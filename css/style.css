@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+:root {
+  --pink-color: hsl(322, 100%, 66%);
+  --very-pale-cyan: hsl(193, 100%, 96%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+  --poppins-font: "Poppins", sans-serif;
+  --open-sans-font: "Open Sans", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.6px;
+  color: black;
+  background: var(--very-pale-cyan);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/*Utility Class*/
+.container {
+  max-width: 1300px;
+  padding: 2rem 2rem;
+  margin: auto;
+  overflow: hidden;
+}
+.logo-primary {
+  width: 150px;
+  height: 100%;
+}
+.btn-primary {
+  display: inline-block;
+  padding: 1.4rem 2.2rem;
+  background-color: white;
+  filter: brightness();
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  color: #000;
+  border-radius: 25px;
+  box-shadow: 2px 3px 12px 0px #ccc;
+  font-family: var(--open-sans-font);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+}
+
+/*Nav Section*/
+
+.main-header {
+  width: 100%;
+  height: 500px;
+  background: url("../images/bg-hero-desktop.svg") no-repeat center/cover;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
